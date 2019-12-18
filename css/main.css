@@ -331,4 +331,6 @@ div.wrap2 > h6
 {
 	border-radius: 99px !important;
 	width: 70%;
+	background-color: #40d670;
+	color: white;
 }
