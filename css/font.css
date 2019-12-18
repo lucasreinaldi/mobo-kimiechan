@@ -1,0 +1,15 @@
+﻿ 
+@font-face {
+font-weight: normal;
+	font-style: normal;
+	font-family: 'VCR MONO';
+	src:url('../fonts/VCR_OSD_MONO_1.001.ttf');     
+}
+
+.VCR 
+{ 
+    font-family: VCR MONO;
+}
+
+
+VCR_OSD_MONO_1.001
