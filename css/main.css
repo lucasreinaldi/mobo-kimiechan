@@ -325,3 +325,10 @@ div.wrap2 > h6
 	letter-spacing: 3px;
 	color: black;
 }
+
+
+#payment
+{
+	border-radius: 99px !important;
+	width: 70%;
+}
