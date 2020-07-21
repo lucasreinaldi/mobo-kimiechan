@@ -1,6 +1,18 @@
-# Lucas Fredegoto Reinaldi
+<h2>Kimie-chan Mobo Website</h2>
+<p>created using pure css and js</p>
+<p>available at https://kimiechan.ga<p>
 
-Desenvolvedor web full stack
+### About the repo:  
 
-npm install
-npm -g install gulp-cli
+```javascript
+const kimie-chan = {
+  tools: ['html', 'css', 'js', 'gulp'],
+  architecture: ['static'],
+  done: '100%'
+}
+
+gulp - to run tasks
+
+```
+
+⭐️ From [@LucasReinaldi](https://github.com/lucasreinaldi)
