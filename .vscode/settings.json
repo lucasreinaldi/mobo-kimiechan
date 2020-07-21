@@ -1,0 +1,9 @@
+{
+    "search.exclude": {
+        "**/dist": true,
+        "**/docs": true,
+        "package-lock.json": true,
+        "package.json": true
+    },
+    "liveServer.settings.root": "/frontend/"
+}

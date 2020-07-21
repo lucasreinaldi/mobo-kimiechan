@@ -1,0 +1,1 @@
+function init_wow(){!function(a){var e=new WOW({boxClass:"wow",animateClass:"animated",offset:90,mobile:!1,live:!0});a("body").hasClass("appear-animate")&&e.init()}(jQuery)}!function(a){"use strict";a(window).load(function(){a("body").imagesLoaded(function(){a(".page-loader div").fadeOut(),a(".page-loader").delay(200).fadeOut("slow")})})}(jQuery);
