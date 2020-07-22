@@ -1,7 +1,8 @@
 {
-  "assets/css/hover.css": "assets/css/hover-57ad95e39a.css",
-  "assets/css/main.css": "assets/css/main-f2557c5f46.css",
-  "assets/img/logo.jpg": "assets/img/logo-e2a24b8e07.jpg",
-  "assets/js/imagesloaded.pkgd.min.js": "assets/js/imagesloaded-61ad08a6d8.pkgd.min.js",
-  "assets/js/main.js": "assets/js/main-0342bd5569.js"
+  "assets/css/base/base.css": "assets/css/base/base-03d27ec70c.css",
+  "assets/css/base/normalize.css": "assets/css/base/normalize-300ecc69ec.css",
+  "assets/css/helpers/props.css": "assets/css/helpers/props-d41d8cd98f.css",
+  "assets/css/layout/section1.css": "assets/css/layout/section1-49d6eb8ad2.css",
+  "assets/css/styles.css": "assets/css/styles-5f94cd1548.css",
+  "assets/img/logo.jpg": "assets/img/logo-e2a24b8e07.jpg"
 }

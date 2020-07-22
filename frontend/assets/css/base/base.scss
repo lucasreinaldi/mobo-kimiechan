@@ -1,0 +1,25 @@
+@import "../helpers/props.scss";
+
+html {
+  height: 100%;
+
+  @media (min-width: 768px) {
+    font-size: 1.125em;
+  }
+}
+
+body {
+  background: $background-color;
+  color: $primary-color-text;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color-text;
+  font-size: 1.1em;
+}

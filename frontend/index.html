@@ -18,90 +18,92 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="ROBOTS" content="index">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+    
 </head>
 
 <body>
-    <div class="overlay">
-        <video autoplay muted loop id="background-video">
+    <div class="video-overlay">
+        <video autoplay muted loop>
             <source src="assets/img/background.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="service">
-        <section class="main">
-            <div class="container service-container">
-                <div class="user-area">
-                    <div class="text-xs-center">
-                        <a href="https://www.instagram.com/kimieet/">
-                            <img class="user-img img-circle" src="assets/img/logo.jpg">
-                        </a>
-                        <h3>
-                            <a href="https://www.instagram.com/kimieet/" class="user-name btn">
-                                @kimieet
-                            </a>
-                        </h3>
-                    </div>
-                </div>
-                <div class="links">
-                    <div class="wrap">
-                        <button class="button reset" onclick="location.href='https://api.whatsapp.com/send?phone=5542999516938';">
-                            <i class="fab fa-whatsapp"></i>
-                            Faça seu pedido pelo Whatsapp
-                        </button>
-                    </div>
-                    <div class="wrap2">
-                        <h6 class="tabela">
-                            <b>Sabores</b>
-                        </h6>
-                        <p class="tabela">
-                            Tradicional
-                            <br> Leite Ninho
-                            <br> Leite Ninho com Nutella
-                            <br> Maracujá
-                            <br> Ovomaltine
-                            <br> -
-                            <br> (
-                            <a target="_blank" href="https://forms.gle/EbvpJZaKnHANsUxB8" id="sugestion">alguma sugestão
-                                de sabor?
-                                <i class="fa fa-lightbulb"></i>
-                            </a> )
-                        </p>
-                    </div>
-
-                    <div class="wrap">
-                        <button class="button reset" onclick="location.href='https://forms.gle/Q5VMGHeb7jHrHcGLA'">
-                            <i class="fa fa-comments-o"></i> Deseja encomendar<br>uma grande quantia?</button>
-                    </div>
-
-                    <div class="wrap">
-                        <button class="button reset" onclick="location.href='http://instagram.com/kimieet';">
-                            <i class="fab fa-instagram"></i> Instagram</button>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="wrap">
-                        <button id="payment" onclick="location.href='https://app.picpay.com/user/kimietanaka'"
-                            class="button reset">
-                            <i class="fas fa-money-bill-wave-alt">
-                            </i> ACEITAMOS PICPAY!</button>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <div class="service-footer">
-        <div class="service-logo-wrap">
-            <p class="footer">
-                🕒 Seg à Sábado: 09:00 — 20:00 <br> 📍 Cornélio Procópio/PR<br> 📞 (42) 9 9951-6938
-                <br> ✉ kimie-tanaka@hotmail.com
-            </p>
+    <div class="container">
+        <div class="user-area">
+            <a href="https://www.instagram.com/kimieet/">
+                <img src="assets/img/logo.jpg">
+            </a>
+            <h3>
+                <a href="https://www.instagram.com/kimieet/">
+                    @kimieet
+                </a>
+            </h3>
         </div>
-        <h1 class="rodape">
-            <a class="footer" target="_blank" href="https://lucasreinaldi.com.br">desenvolvido por Lucas
-                Reinaldi</a><br>
-        </h1>
+        <div class="table-wrapper">
+            <div class="button-wrapper">
+                <button class="button" onclick="location.href='https://api.whatsapp.com/send?phone=5542999516938';">
+                    <i class="fa fa-whatsapp"></i>
+                    Faça seu pedido pelo Whatsapp
+                </button>
+            </div>
+            <div class="table button-wrapper">
+                <p>
+                    <b>Sabores</b>
+                </p>
+                <p>
+                    Tradicional
+                    <br> Leite Ninho
+                    <br> Leite Ninho com Nutella
+                    <br> Maracujá
+                    <br> Ovomaltine
+                    <br> -
+                    <br>
+                    <a target="_blank" href="https://forms.gle/EbvpJZaKnHANsUxB8" id="sugestion">alguma sugestão de
+                        sabor?
+                        <i class="fa fa-lightbulb"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="button-wrapper">
+                <button class="button" onclick="location.href='https://forms.gle/Q5VMGHeb7jHrHcGLA'">
+                    <i class="fa fa-comments-o"></i> Deseja encomendar<br>uma grande quantia?</button>
+            </div>
+
+            <div class="button-wrapper">
+                <button class="button" onclick="location.href='http://instagram.com/kimieet';">
+                    <i class="fa fa-instagram"></i> Instagram</button>
+            </div>
+            <br>
+            <br>
+            <div class="button-wrapper">
+                <button id="payment" onclick="location.href='https://app.picpay.com/user/kimietanaka'" class="button">
+                    <i class="fa fa-money"></i>
+                    ACEITAMOS PICPAY!
+                </button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-wrapper">
+                <p>
+                    🕒 Seg à Sábado: 09:00 — 20:00
+                    <br>
+                    📍 Cornélio Procópio/PR
+                    <br>
+                    📞 (42) 9 9951-6938
+                    <br>
+                    ✉ kimie-tanaka@hotmail.com
+                </p>
+            </div>
+            <h1>
+                <a target="_blank" href="https://lucasreinaldi.com.br">
+                    desenvolvido por Lucas Reinaldi
+                </a>
+            </h1>
+        </div>
     </div>
+
 </body>
 
 </html>
