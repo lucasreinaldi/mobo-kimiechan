@@ -1,17 +1,17 @@
-﻿.service.theme .link a {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    white-space: normal;
-    padding: 15px 20px;
-    display: block;
-    width: 100%;
+﻿html,
+body {
+    background: white;
+    color: black;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
     position: relative;
-    background-color: black;
-    letter-spacing: 2px;
+    z-index: 100;
+    font-size: 20px;
+}
+
+a {
+    color: black;
 }
 
 h1,
@@ -46,32 +46,18 @@ h6 {
     outline: none;
 }
 
-.service.theme .user-img {
-    width: 160px;
-    height: 160px;
-    vertical-align: middle;
-    background-color: rgba(0, 0, 0, .1);
-    margin-bottom: 10px;
-}
-
-.service.theme .user-area {
+.user-area {
     text-align: center;
     margin-top: 20px;
     padding-top: 15px;
 }
 
-.service.theme .user-area h3 {
+.user-area h3 {
     line-height: 1;
     margin: 0 auto 20px auto;
 }
 
-.service.theme.colourway-miami .user-name {
-    color: black;
-    font-size: 20px;
-}
-
-.service.theme .user-name {
-    color: #bbb;
+.user-name {
     font-size: 1rem;
     font-weight: 600;
     border-color: transparent;
@@ -81,67 +67,14 @@ h6 {
     display: block;
     overflow: hidden;
 }
-
-.btn-link {
-    font-weight: 400;
-    color: #337ab7;
-    border-radius: 0;
-}
-
-body>div>section.main>div>div.links>div>div>div>a {
-    color: #fff;
-    border-color: #fff;
-    border-width: 2px;
-    border-style: solid;
-    text-align: center;
-    position: relative;
-    -webkit-transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    z-index: 2;
-    background: 0 0;
-}
-
-.service.theme .link {
-    margin-bottom: 12px;
-    padding: 0;
-    position: relative;
-}
-
-.service.theme .links {
+ 
+.links {
     text-align: center;
     clear: both;
     margin-bottom: 12px;
 }
-
-.service.theme .service {
-    overflow: hidden;
-}
-
-.service header {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.service.theme section.main {
-    background-color: transparent;
-}
-
-article,
-aside,
-dialog,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-    display: block;
-}
-
-.service.theme .service-container {
+ 
+.service-container {
     max-width: 700px;
     width: auto;
 }
@@ -170,40 +103,6 @@ p.footer {
     padding-bottom: 20px;
 }
 
-.imagem-rodape {
-    width: 100%;
-    height: 500px;
-    text-align: center;
-    background-image: url("../images/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-html,
-body {
-    background: white;
-    color: black;
-    height: 100%;
-    margin: 0;
-    min-height: 100%;
-    position: relative;
-    z-index: 100;
-}
-
-.marquee {
-    display: block;
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-
-svg {
-    display: block;
-}
-
-.logo {
-    fill: #fff;
-}
 
 div.service {
     position: relative;

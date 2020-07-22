@@ -1,6 +1,8 @@
 <h2>Kimie-chan Mobo Website</h2>
-<p>created using pure css and js</p>
-<p>available at https://kimiechan.ga<p>
+<p>created using pure css and js
+<br>
+available at https://kimiechan.ga
+</p>
 
 ### About the repo:  
 
