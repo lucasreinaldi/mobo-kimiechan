@@ -16,5 +16,11 @@ const kimie-chan = {
 gulp - to run tasks
 
 ```
+### Dependencies
+node
+ruby
+gulp: `npm i -g gulp gulp`<br>
+glp cli: `npm i @angular/cli -g`<br>
+enable external scripts: `Set-ExecutionPolicy RemoteSigned` on cmd (as admin)
 
 ⭐️ From [@LucasReinaldi](https://github.com/lucasreinaldi)
